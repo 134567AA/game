@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가위바위보</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <h1 class="text-center">가위바위보 게임</h1>
+        <div class="me text-center">
+            <h1 class="meT">사용자</h1>
+            <img src="images/r1.png" id="ming" alt="주먹">
+        </div>
+        <div class="you text-center">
+            <h1 class="youT">컴퓨터</h1>
+            <img src="images/s1.png" id="ding" alt="가위">
+        </div>
+   
+     <table id="table">
+        <thead>
+            <tr>
+                <th>총 횟수</th>
+                <th>승리</th>
+                <th>패배</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="ct">진</td>
+                <td id="vt">행</td>
+                <td id="lt">해</td>
+            </tr>
+        </tbody>
+        <tfoot> 
+        <!--승률-->
+            <tr>
+                <td colspan="3"><strong id="vper">시작해보세요!</strong></td>
+            </tr>
+        </tfoot>
+    </table>  
+    <div class="btn-box">
+        <button class="btn" id="s" onclick="rsp(1)">가위</button>
+        <button class="btn" id="r" onclick="rsp(2)">바위</button>
+        <button class="btn" id="p" onclick="rsp(3)">보</button>
+
+    </div>    
+    <div class="result">    
+    <div id="reset" class="reset"></div>
+    <!-- result -->
+    <div id="tk" class="text-center"></div>
+</div>
+</div>
+<script src="rock.js"></script>
+</body>
+</html>

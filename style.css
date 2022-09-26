@@ -1,0 +1,105 @@
+*{box-sizing: border-box;}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Cafe24Ssurround';
+    height: 100%;
+    width : 1200px;
+        margin: 0 auto ;
+}
+
+
+.container{
+    width: 500px;
+    height: 450px;
+    border:1px solid #222;
+margin: 0 auto;
+
+}
+.result{
+    width: 100%;
+    display: flex;
+justify-content: space-around;
+
+}
+.text-center{
+    text-align: center;
+}
+div .me{
+    margin-left: 55px;
+}
+.me,.you{
+    width: 200px;
+    display: inline-block;
+    border: 1px solid #222;
+
+}
+
+/* .meT,.youT{
+   
+    background-color: #fff;
+
+} */
+#table{
+    margin-top: 60px;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 50px;
+    width: 100%
+}
+table,th,td{
+    border: 1px solid #333;
+}
+
+.btn-box{
+    width: 100%;
+    margin-top: 50px;
+}
+.btn:hover{
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: skyblue;
+    border:1px solid #999;
+    width: 30%;
+    height: 50px;
+    display: inline-block;
+}
+.btn:first-child{
+    margin-left: 20px;
+}
+#tk{
+    margin: 20px;
+    font-weight: 700;
+    background-color:  rgb(255, 191, 73) ;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reset button{
+    margin: 20px;
+    line-height: 40px;
+    width: 200px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    background-color: pink;
+    border:1px solid pink;
+    
+}
+
+.btn{
+    border-radius:15px ;
+}
